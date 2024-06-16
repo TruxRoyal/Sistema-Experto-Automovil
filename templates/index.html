@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Experto de Diagnóstico de Vehículos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="dashboard container mt-5">
+        <div class="row">
+            <!-- Formulario de diagnóstico -->
+            <div class="col-md-6">
+                <h1 class="text-center">Diagnóstico de Vehículos</h1>
+                <form id="diagnosticoForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sintomasSelect">Seleccione los síntomas:</label>
+                        <select id="sintomasSelect" class="form-control" multiple>
+                            {% for sintoma in sintomas_disponibles %}
+                            <option value="{{ sintoma }}">{{ sintoma }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sintomasInput">O escriba los síntomas separados por comas:</label>
+                        <input type="text" class="form-control" id="sintomasInput" placeholder="e.g., pérdida de potencia al acelerar, ruido metálico">
+                    </div>
+                    <small id="sintomasHelp" class="form-text text-muted">Puede seleccionar múltiples síntomas manteniendo presionada la tecla Ctrl (Windows) o Command (Mac).</small>
+                    <button type="submit" class="btn btn-primary btn-block">Registrar Síntomas</button>
+                </form>
+                <div class="mt-4" id="resultado" style="display: none;">
+                    <h3>Diagnóstico: <span id="diagnostico"></span></h3>
+                    <div id="recomendacion">
+                        <h3>Recomendaciones:</h3>
+                        <p><strong>Pasos:</strong></p>
+                        <ul id="recomendacion-pasos"></ul>
+                        <p><strong>Herramientas necesarias:</strong> <span id="recomendacion-herramientas"></span></p>
+                        <p><strong>Síntomas adicionales a verificar:</strong> <span id="recomendacion-sintomas-adicionales"></span></p>
+                        <p><strong>Consideraciones de seguridad:</strong> <span id="recomendacion-consideraciones"></span></p>
+                        <p><strong>Recursos adicionales:</strong></p>
+                        <ul id="recomendacion-recursos"></ul>
+                        <p><strong>Nivel de dificultad:</strong> <span id="recomendacion-nivel"></span></p>
+                        <p><strong>Consulta profesional:</strong> <span id="recomendacion-consulta"></span></p>
+                    </div>
+                </div>
+                <div class="alert alert-danger mt-4" id="alerta" style="display: none;">
+                    No se pudo determinar el diagnóstico debido a síntomas no disponibles.
+                </div>
+            </div>
+            <div class="col-md-6">
+                <button id="verHistorial" class="btn btn-secondary btn-block mt-4">Ver Historial de Consultas</button>
+                <div class="mt-4" id="historial" style="display: none;">
+                    <h3>Historial de Consultas:</h3>
+                    <ul id="listaHistorial" class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>

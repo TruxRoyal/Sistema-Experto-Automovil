@@ -1,0 +1,1413 @@
+[
+    {
+        "sintomas": [
+            "Pérdida de potencia al acelerar"
+        ],
+        "diagnostico": "Problema en el motor",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el motor.",
+                "Verificar las bujías, el filtro de aire, y el sistema de admisión de aire.",
+                "Realizar un escaneo del motor para detectar posibles fallos usando un escáner OBD-II."
+            ],
+            "herramientas": [
+                "Escáner OBD-II",
+                "Juego de llaves",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Luz de advertencia del motor encendida"
+            ],
+            "consideraciones_seguridad": [
+                "Apagar el motor antes de revisar.",
+                "Usar guantes de protección."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video instructivo sobre cómo usar un escáner OBD-II"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo técnico sobre diagnóstico del motor"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Ruido metálico",
+            "Pérdida de potencia"
+        ],
+        "diagnostico": "Problema en el escape del motor",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el sistema de escape del motor.",
+                "Comprobar el convertidor catalítico y el colector de escape.",
+                "Inspeccionar visualmente las partes del escape con una linterna para detectar fugas o daños."
+            ],
+            "herramientas": [
+                "Linterna",
+                "Juego de llaves",
+                "Gato hidráulico"
+            ],
+            "sintomas_adicionales": [
+                "Olor a combustible"
+            ],
+            "consideraciones_seguridad": [
+                "Asegurarse de que el motor esté frío antes de revisar.",
+                "Usar guantes de protección."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Guía",
+                    "enlace": "https://example.com/guide",
+                    "descripcion": "Guía técnica sobre sistemas de escape"
+                },
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video tutorial sobre inspección de sistemas de escape"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Vibración del volante al frenar"
+        ],
+        "diagnostico": "Problema en los frenos",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el sistema de frenos.",
+                "Verificar discos y pastillas.",
+                "Comprobar el estado de los calipers y el nivel de líquido de frenos.",
+                "Realizar un ajuste o reemplazo si es necesario."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Gato hidráulico",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Luz de advertencia de frenos encendida"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurar el vehículo con gatos antes de levantarlo."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/tutorial",
+                    "descripcion": "Video tutorial sobre revisión de frenos"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo técnico sobre sistemas de frenos"
+                }
+            ],
+            "nivel_dificultad": "Básico",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Olor a quemado",
+            "Humo en el capó"
+        ],
+        "diagnostico": "Sobrecalentamiento del motor",
+        "recomendacion": {
+            "pasos": [
+                "Detenerse inmediatamente y revisar el sistema de refrigeración.",
+                "Verificar el nivel de refrigerante.",
+                "Revisar el radiador, la bomba de agua y el termostato.",
+                "Buscar posibles fugas."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Luz de advertencia de temperatura encendida"
+            ],
+            "consideraciones_seguridad": [
+                "No abrir el radiador cuando el motor está caliente.",
+                "Usar guantes y protección para los ojos."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo técnico sobre sobrecalentamiento del motor"
+                },
+                {
+                    "tipo": "Manual",
+                    "enlace": "https://example.com/manual",
+                    "descripcion": "Manual del usuario para el sistema de refrigeración"
+                }
+            ],
+            "nivel_dificultad": "Avanzado",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Humo saliendo del capó"
+        ],
+        "diagnostico": "Sobrecalentamiento del motor",
+        "recomendacion": {
+            "pasos": [
+                "Detenerse inmediatamente y revisar el sistema de refrigeración.",
+                "Inspeccionar posibles fugas de refrigerante.",
+                "Revisar el radiador, la bomba de agua y el ventilador del radiador."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Luz de advertencia de temperatura encendida"
+            ],
+            "consideraciones_seguridad": [
+                "No abrir el radiador cuando el motor está caliente.",
+                "Usar guantes y protección para los ojos."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Manual",
+                    "enlace": "https://example.com/manual",
+                    "descripcion": "Manual del usuario para el sistema de refrigeración"
+                },
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video tutorial sobre inspección de sistemas de refrigeración"
+                }
+            ],
+            "nivel_dificultad": "Avanzado",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Testigo de avería encendido",
+            "Pérdida de potencia"
+        ],
+        "diagnostico": "Problema en la inyección de combustible",
+        "recomendacion": {
+            "pasos": [
+                "Revisar los inyectores y la bomba de combustible.",
+                "Comprobar el filtro de combustible, los sensores de oxígeno y el regulador de presión de combustible.",
+                "Realizar un escaneo de diagnóstico."
+            ],
+            "herramientas": [
+                "Escáner OBD-II",
+                "Juego de llaves",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Humo negro del escape"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Trabajar en un área bien ventilada."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de inyectores"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre inyección de combustible"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Chirrido al girar el volante en ralentí"
+        ],
+        "diagnostico": "Problema en la dirección asistida",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el nivel de líquido de dirección y la correa de la bomba de dirección asistida.",
+                "Inspeccionar la bomba de dirección y las mangueras para detectar posibles fugas."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Dificultad para girar el volante"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de dirección asistida"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre dirección asistida"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Vibración del pedal de freno"
+        ],
+        "diagnostico": "Problema en los frenos",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el sistema de frenos.",
+                "Verificar el estado de los discos y tambores.",
+                "Comprobar el equilibrio de las ruedas y realizar una alineación si es necesario."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Gato hidráulico",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Luz de advertencia de frenos encendida"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurar el vehículo con gatos antes de levantarlo."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/tutorial",
+                    "descripcion": "Video tutorial sobre revisión de frenos"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo técnico sobre sistemas de frenos"
+                }
+            ],
+            "nivel_dificultad": "Básico",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Olor a combustible en el interior"
+        ],
+        "diagnostico": "Problema en el sistema de combustible",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el sistema de combustible.",
+                "Comprobar posibles fugas en el tanque, las líneas de combustible y los inyectores.",
+                "Inspeccionar el regulador de presión de combustible."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Humo negro del escape"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Trabajar en un área bien ventilada."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo técnico sobre sistemas de combustible"
+                },
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre inspección de sistemas de combustible"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Pérdida de fluido en el pavimento"
+        ],
+        "diagnostico": "Fuga de fluido",
+        "recomendacion": {
+            "pasos": [
+                "Revisar posibles fugas de aceite, refrigerante, líquido de frenos o líquido de transmisión.",
+                "Identificar el tipo de fluido y la fuente de la fuga para realizar las reparaciones necesarias."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Niveles bajos de fluido"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Trabajar en un área bien ventilada."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo técnico sobre detección de fugas de fluido"
+                },
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de fugas de fluido"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Luz de advertencia del motor encendida"
+        ],
+        "diagnostico": "Problema en el motor",
+        "recomendacion": {
+            "pasos": [
+                "Realizar un diagnóstico con un escáner OBD-II.",
+                "Revisar los códigos de error.",
+                "Verificar los sensores y componentes mencionados en los códigos de error y realizar las reparaciones necesarias."
+            ],
+            "herramientas": [
+                "Escáner OBD-II",
+                "Juego de llaves",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Pérdida de potencia",
+                "Ruidos inusuales en el motor"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo técnico sobre uso de escáner OBD-II"
+                },
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre diagnóstico de motor con OBD-II"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Humo en el escape"
+        ],
+        "diagnostico": "Problema en el sistema de escape",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el sistema de escape.",
+                "Comprobar el estado del catalizador y los sensores de oxígeno.",
+                "Inspeccionar el silenciador y el tubo de escape para detectar posibles daños o fugas."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Ruido metálico",
+                "Olor a combustible"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté frío antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo técnico sobre sistemas de escape"
+                },
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de sistemas de escape"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Falta de potencia al acelerar"
+        ],
+        "diagnostico": "Problema en el motor",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el motor.",
+                "Comprobar el sistema de admisión de aire y el sistema de combustible.",
+                "Verificar el estado del filtro de aire y el flujo de combustible hacia el motor."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Escáner OBD-II",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Luz de advertencia del motor encendida"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo técnico sobre sistemas de admisión de aire"
+                },
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de sistemas de admisión de aire"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Problemas al arrancar"
+        ],
+        "diagnostico": "Problema en la batería o el sistema de arranque",
+        "recomendacion": {
+            "pasos": [
+                "Revisar la batería, el alternador y el motor de arranque.",
+                "Comprobar el voltaje de la batería y la conexión de los terminales.",
+                "Realizar una prueba de carga de la batería."
+            ],
+            "herramientas": [
+                "Multímetro",
+                "Llave inglesa"
+            ],
+            "sintomas_adicionales": [
+                "Luz de advertencia de batería encendida"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de batería y sistema de arranque"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre diagnóstico de batería y sistema de arranque"
+                }
+            ],
+            "nivel_dificultad": "Básico",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Ruido al girar el volante"
+        ],
+        "diagnostico": "Problema en la dirección",
+        "recomendacion": {
+            "pasos": [
+                "Revisar la dirección.",
+                "Verificar el estado de los componentes de la dirección asistida, la caja de dirección y las juntas universales.",
+                "Comprobar el nivel de líquido de dirección."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Dificultad para girar el volante"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de dirección"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de dirección asistida"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Freno de mano suelto"
+        ],
+        "diagnostico": "Freno de mano suelto",
+        "recomendacion": {
+            "pasos": [
+                "Ajustar el freno de mano.",
+                "Revisar el cable del freno de mano y el mecanismo de bloqueo.",
+                "Inspeccionar las zapatas de freno traseras y ajustar si es necesario."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Freno de mano no mantiene el vehículo detenido"
+            ],
+            "consideraciones_seguridad": [
+                "Asegurarse de que el vehículo esté estacionado en una superficie plana.",
+                "Usar guantes de protección."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre ajuste del freno de mano"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento del freno de mano"
+                }
+            ],
+            "nivel_dificultad": "Básico",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Ruido de rechinido al frenar"
+        ],
+        "diagnostico": "Desgaste en las pastillas de freno",
+        "recomendacion": {
+            "pasos": [
+                "Revisar las pastillas de freno.",
+                "Reemplazar las pastillas de freno si es necesario.",
+                "Verificar el estado de los discos de freno."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Destornillador",
+                "Gato hidráulico"
+            ],
+            "sintomas_adicionales": [
+                "Frenado menos efectivo"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurar el vehículo con gatos antes de levantarlo."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión y reemplazo de pastillas de freno"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de frenos"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Vibración en el volante a alta velocidad"
+        ],
+        "diagnostico": "Desbalanceo de las ruedas",
+        "recomendacion": {
+            "pasos": [
+                "Realizar el balanceo de las ruedas.",
+                "Verificar el estado de los neumáticos.",
+                "Revisar la alineación de las ruedas."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Herramienta de balanceo de ruedas"
+            ],
+            "sintomas_adicionales": [
+                "Desgaste irregular de neumáticos"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurar el vehículo con gatos antes de levantarlo."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre balanceo de ruedas"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de neumáticos"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Luces parpadeantes en el tablero"
+        ],
+        "diagnostico": "Problema en el sistema eléctrico",
+        "recomendacion": {
+            "pasos": [
+                "Revisar la batería, el alternador y los fusibles.",
+                "Verificar conexiones y cables eléctricos.",
+                "Reemplazar fusibles dañados."
+            ],
+            "herramientas": [
+                "Multímetro",
+                "Juego de llaves",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Pérdida de potencia en componentes eléctricos"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión del sistema eléctrico"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre diagnóstico de sistemas eléctricos"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Olor a aceite quemado"
+        ],
+        "diagnostico": "Fuga de aceite",
+        "recomendacion": {
+            "pasos": [
+                "Inspeccionar el motor en busca de fugas de aceite.",
+                "Verificar juntas y sellos.",
+                "Revisar el nivel de aceite y completar si es necesario."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Humo en el escape"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté frío antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de fugas de aceite"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de motor"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Humo blanco del escape"
+        ],
+        "diagnostico": "Problema en la junta de la culata",
+        "recomendacion": {
+            "pasos": [
+                "Revisar la junta de la culata.",
+                "Verificar el sistema de refrigeración.",
+                "Verificar el nivel de refrigerante y el estado del aceite del motor."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Sobrecalentamiento del motor"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté frío antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de la junta de la culata"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre diagnóstico de sobrecalentamiento del motor"
+                }
+            ],
+            "nivel_dificultad": "Avanzado",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Dificultad para cambiar de marcha"
+        ],
+        "diagnostico": "Problema en la transmisión",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el nivel y la calidad del líquido de transmisión.",
+                "Inspeccionar el sistema de embrague y los cables de cambio de marcha."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Ruidos inusuales al cambiar de marcha"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de transmisión"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de transmisión"
+                }
+            ],
+            "nivel_dificultad": "Avanzado",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Humo azul del escape"
+        ],
+        "diagnostico": "Consumo de aceite del motor",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el nivel de aceite del motor.",
+                "Inspeccionar los sellos de las válvulas y los anillos de los pistones.",
+                "Realizar una prueba de compresión."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Pérdida de potencia",
+                "Ruidos inusuales en el motor"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté frío antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de consumo de aceite"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre diagnóstico de consumo de aceite"
+                }
+            ],
+            "nivel_dificultad": "Avanzado",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Chirrido al arrancar el motor"
+        ],
+        "diagnostico": "Problema en el motor de arranque",
+        "recomendacion": {
+            "pasos": [
+                "Revisar el motor de arranque.",
+                "Verificar el estado de la batería.",
+                "Comprobar las conexiones eléctricas."
+            ],
+            "herramientas": [
+                "Multímetro",
+                "Llave inglesa",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Problemas al arrancar el vehículo"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión del motor de arranque"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre diagnóstico del motor de arranque"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Luz de ABS encendida"
+        ],
+        "diagnostico": "Problema en el sistema de frenos ABS",
+        "recomendacion": {
+            "pasos": [
+                "Realizar un diagnóstico del sistema ABS con un escáner.",
+                "Revisar los sensores de velocidad y el módulo de control ABS."
+            ],
+            "herramientas": [
+                "Escáner OBD-II",
+                "Llave inglesa",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Frenado irregular"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre diagnóstico de sistema ABS"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de frenos ABS"
+                }
+            ],
+            "nivel_dificultad": "Avanzado",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Frenado irregular"
+        ],
+        "diagnostico": "Desgaste en los discos de freno",
+        "recomendacion": {
+            "pasos": [
+                "Revisar los discos de freno.",
+                "Reemplazar los discos de freno si es necesario.",
+                "Verificar las pastillas de freno."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Destornillador",
+                "Gato hidráulico"
+            ],
+            "sintomas_adicionales": [
+                "Ruido de rechinido al frenar"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurar el vehículo con gatos antes de levantarlo."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión y reemplazo de discos de freno"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de frenos"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Volante difícil de girar"
+        ],
+        "diagnostico": "Bajo nivel de líquido de dirección asistida",
+        "recomendacion": {
+            "pasos": [
+                "Verificar y rellenar el nivel de líquido de dirección asistida.",
+                "Revisar posibles fugas en el sistema de dirección."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Ruido de rechinido al girar"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión del sistema de dirección asistida"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de dirección asistida"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Ruidos en la suspensión al pasar baches"
+        ],
+        "diagnostico": "Desgaste en los amortiguadores",
+        "recomendacion": {
+            "pasos": [
+                "Revisar los amortiguadores.",
+                "Reemplazar los amortiguadores si es necesario.",
+                "Inspeccionar otros componentes de la suspensión como las rótulas y los bujes."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Gato hidráulico",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Desgaste irregular de neumáticos"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurar el vehículo con gatos antes de levantarlo."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión y reemplazo de amortiguadores"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de suspensión"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Dificultad para encender el vehículo en frío"
+        ],
+        "diagnostico": "Problema en las bujías o en el sistema de combustible",
+        "recomendacion": {
+            "pasos": [
+                "Revisar las bujías.",
+                "Reemplazar las bujías si es necesario.",
+                "Verificar el sistema de combustible, incluyendo la bomba y los inyectores."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Destornillador",
+                "Multímetro"
+            ],
+            "sintomas_adicionales": [
+                "Pérdida de potencia",
+                "Humo en el escape"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de bujías y sistema de combustible"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre diagnóstico de problemas de encendido"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Ruido de golpeteo en el motor"
+        ],
+        "diagnostico": "Desajuste en las válvulas",
+        "recomendacion": {
+            "pasos": [
+                "Revisar las válvulas del motor.",
+                "Ajustar las válvulas si es necesario.",
+                "Verificar el estado del árbol de levas y los balancines."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Destornillador",
+                "Juego de galgas"
+            ],
+            "sintomas_adicionales": [
+                "Pérdida de potencia",
+                "Humo en el escape"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté frío antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre ajuste de válvulas"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de válvulas"
+                }
+            ],
+            "nivel_dificultad": "Avanzado",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Luz de Check Engine encendida"
+        ],
+        "diagnostico": "Problema en el sistema de emisiones",
+        "recomendacion": {
+            "pasos": [
+                "Realizar un diagnóstico con un escáner OBD-II.",
+                "Verificar los sensores de oxígeno, el catalizador y otros componentes del sistema de emisiones."
+            ],
+            "herramientas": [
+                "Escáner OBD-II",
+                "Llave inglesa",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Pérdida de potencia",
+                "Humo en el escape"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre diagnóstico de sistema de emisiones"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de sistemas de emisiones"
+                }
+            ],
+            "nivel_dificultad": "Avanzado",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Frenado suave y esponjoso"
+        ],
+        "diagnostico": "Aire en el sistema de frenos",
+        "recomendacion": {
+            "pasos": [
+                "Purgar el sistema de frenos para eliminar el aire.",
+                "Verificar el nivel de líquido de frenos."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Kit de purga de frenos"
+            ],
+            "sintomas_adicionales": [
+                "Pedal de freno baja al fondo"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurar el vehículo con gatos antes de levantarlo."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre purga de frenos"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de sistemas de frenos"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Ruido de chirrido al girar"
+        ],
+        "diagnostico": "Desgaste en la correa de dirección asistida",
+        "recomendacion": {
+            "pasos": [
+                "Revisar la correa de dirección asistida.",
+                "Reemplazar la correa si es necesario.",
+                "Inspeccionar las poleas asociadas."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Volante difícil de girar"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurarse de que el motor esté apagado antes de revisar."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de correa de dirección asistida"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de dirección asistida"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Temperatura del motor alta"
+        ],
+        "diagnostico": "Problema en el sistema de refrigeración",
+        "recomendacion": {
+            "pasos": [
+                "Verificar el nivel de refrigerante.",
+                "Revisar el radiador, la bomba de agua y el termostato.",
+                "Inspeccionar el ventilador del radiador."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Sobrecalentamiento del motor",
+                "Humo en el capó"
+            ],
+            "consideraciones_seguridad": [
+                "No abrir el radiador cuando el motor está caliente.",
+                "Usar guantes de protección."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión del sistema de refrigeración"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de sistemas de refrigeración"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Fuga de líquido de frenos"
+        ],
+        "diagnostico": "Fuga en el sistema de frenos",
+        "recomendacion": {
+            "pasos": [
+                "Inspeccionar todo el sistema de frenos, incluyendo las líneas, mangueras, calipers y el cilindro maestro.",
+                "Reparar o reemplazar las partes dañadas."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Linterna"
+            ],
+            "sintomas_adicionales": [
+                "Pedal de freno baja al fondo"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Asegurar el vehículo con gatos antes de levantarlo."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre revisión de fugas de frenos"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de sistemas de frenos"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "Humo negro del escape"
+        ],
+        "diagnostico": "Problema en el sistema de combustible",
+        "recomendacion": {
+            "pasos": [
+                "Verificar el sistema de inyección de combustible.",
+                "Revisar y limpiar los inyectores.",
+                "Comprobar el estado del filtro de aire."
+            ],
+            "herramientas": [
+                "Llave inglesa",
+                "Destornillador"
+            ],
+            "sintomas_adicionales": [
+                "Olor a combustible"
+            ],
+            "consideraciones_seguridad": [
+                "Usar guantes de protección.",
+                "Trabajar en un área bien ventilada."
+            ],
+            "recursos": [
+                {
+                    "tipo": "Video",
+                    "enlace": "https://example.com/video",
+                    "descripcion": "Video sobre limpieza de inyectores de combustible"
+                },
+                {
+                    "tipo": "Artículo",
+                    "enlace": "https://example.com/article",
+                    "descripcion": "Artículo sobre mantenimiento de sistemas de combustible"
+                }
+            ],
+            "nivel_dificultad": "Intermedio",
+            "consulta_profesional": "Si no se siente cómodo realizando estas tareas, consulte a un profesional."
+        }
+    },
+    {
+        "sintomas": [
+            "prueba"
+        ],
+        "diagnostico": "prueba",
+        "recomendacion": {
+            "pasos": [
+                "prueba"
+            ],
+            "herramientas": [
+                "prueba"
+            ],
+            "sintomas_adicionales": [
+                "prueba"
+            ],
+            "consideraciones_seguridad": [
+                "prueba"
+            ],
+            "recursos": [],
+            "nivel_dificultad": "Básico",
+            "consulta_profesional": "prueba"
+        }
+    }
+]

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador - Actualizar Base de Conocimientos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 col-12 mb-4">
+                <h2>Reglas Actuales</h2>
+                <ul id="reglasActuales" class="list-group scrollable-list">
+                    {% for regla in reglas %}
+                    <li class="list-group-item">
+                        <strong>Síntomas:</strong> {{ regla.sintomas | join(', ') }}<br>
+                        <strong>Diagnóstico:</strong> {{ regla.diagnostico }}<br>
+                        <strong>Recomendación:</strong> {{ regla.recomendacion.pasos | join(', ') }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col-md-8 col-12">
+                <h1 class="text-center">Actualizar Base de Conocimientos</h1>
+                <form id="updateKnowledgeForm">
+                    <div class="form-group">
+                        <label for="sintomas">Síntomas:</label>
+                        <input type="text" class="form-control" id="sintomas" placeholder="e.g., pérdida de potencia, ruido metálico" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="diagnostico">Diagnóstico:</label>
+                        <input type="text" class="form-control" id="diagnostico" placeholder="e.g., Problema en el motor" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recomendacion">Pasos:</label>
+                        <textarea class="form-control" id="recomendacion" rows="5" placeholder="Describa los pasos" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="herramientas">Herramientas:</label>
+                        <input type="text" class="form-control" id="herramientas" placeholder="e.g., Llave inglesa, Destornillador">
+                    </div>
+                    <div class="form-group">
+                        <label for="sintomas_adicionales">Síntomas adicionales a verificar:</label>
+                        <input type="text" class="form-control" id="sintomas_adicionales" placeholder="e.g., Olor a combustible">
+                    </div>
+                    <div class="form-group">
+                        <label for="consideraciones_seguridad">Consideraciones de seguridad:</label>
+                        <input type="text" class="form-control" id="consideraciones_seguridad" placeholder="e.g., Usar guantes de protección, Trabajar en un área bien ventilada">
+                    </div>
+                    <div class="form-group">
+                        <label for="recursos">Recursos adicionales:</label>
+                        <textarea class="form-control" id="recursos" rows="3" placeholder="e.g., Tipo: Video, Enlace: https://example.com/video, Descripción: Video sobre limpieza de inyectores de combustible"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="nivel_dificultad">Nivel de dificultad:</label>
+                        <select class="form-control" id="nivel_dificultad">
+                            <option value="Básico">Básico</option>
+                            <option value="Intermedio">Intermedio</option>
+                            <option value="Avanzado">Avanzado</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="consulta_profesional">Consulta profesional:</label>
+                        <textarea class="form-control" id="consulta_profesional" rows="2" placeholder="Consulte a un profesional si no se siente cómodo realizando estas reparaciones."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Actualizar Base de Conocimientos</button>
+                </form>
+                <div class="alert alert-success mt-4" id="successAlert" style="display: none;">
+                    Base de conocimientos actualizada exitosamente.
+                </div>
+                <div class="alert alert-danger mt-4" id="errorAlert" style="display: none;">
+                    No se pudo actualizar la base de conocimientos. Intente nuevamente.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $("#updateKnowledgeForm").on("submit", function(event) {
+            event.preventDefault();
+            
+            var sintomas = $("#sintomas").val().split(",").map(s => s.trim()).filter(s => s);
+            var diagnostico = $("#diagnostico").val().trim();
+            var recomendacion = $("#recomendacion").val().trim().split(". ").filter(s => s);
+            var herramientas = $("#herramientas").val().split(",").map(s => s.trim()).filter(s => s);
+            var sintomas_adicionales = $("#sintomas_adicionales").val().split(",").map(s => s.trim()).filter(s => s);
+            var consideraciones_seguridad = $("#consideraciones_seguridad").val().split(",").map(s => s.trim()).filter(s => s);
+            var recursos = $("#recursos").val().split("\n").map(line => {
+                var parts = line.split(",").map(s => s.trim());
+                return { tipo: parts[0], enlace: parts[1], descripcion: parts[2] };
+            }).filter(resource => resource.tipo && resource.enlace && resource.descripcion);
+            var nivel_dificultad = $("#nivel_dificultad").val();
+            var consulta_profesional = $("#consulta_profesional").val().trim();
+            
+            if (sintomas.length === 0 || !diagnostico || recomendacion.length === 0) {
+                alert("Todos los campos son obligatorios");
+                return;
+            }
+
+            $.ajax({
+                url: "/admin/update_knowledge_base",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    sintomas: sintomas,
+                    diagnostico: diagnostico,
+                    recomendacion: {
+                        pasos: recomendacion,
+                        herramientas: herramientas,
+                        sintomas_adicionales: sintomas_adicionales,
+                        consideraciones_seguridad: consideraciones_seguridad,
+                        recursos: recursos,
+                        nivel_dificultad: nivel_dificultad,
+                        consulta_profesional: consulta_profesional
+                    }
+                }),
+                success: function(response) {
+                    $("#successAlert").slideDown();
+                    $("#errorAlert").hide();
+                    $("#updateKnowledgeForm")[0].reset();
+                    location.reload();
+                },
+                error: function(response) {
+                    $("#errorAlert").slideDown();
+                    $("#successAlert").hide();
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html>
